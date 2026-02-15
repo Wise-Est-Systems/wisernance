@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wisernance"
+version = "0.1.0"
+description = "Wisernance Pre-Execution Governance Gate (enforceable policy engine)."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pyyaml>=6.0"]
+
+[project.scripts]
+wisernance = "wisernance.cli:main"
+
+[tool.setuptools]
+packages = ["wisernance"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

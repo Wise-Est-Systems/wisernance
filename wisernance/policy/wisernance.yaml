@@ -1,0 +1,41 @@
+default_confirmation_on_irreversible: true
+
+irreversible_keywords:
+  - "delete"
+  - "wipe"
+  - "format drive"
+  - "irreversible"
+  - "send the money"
+  - "wire transfer"
+  - "sign this"
+  - "submit"
+  - "file a claim"
+  - "terminate"
+  - "drop charges"
+
+risk_keywords:
+  legal: ["sue", "lawsuit", "attorney", "legal advice", "contract", "court", "subpoena"]
+  financial: ["invest", "loan", "credit", "tax", "wire", "bank", "debt", "crypto", "leverage"]
+  medical: ["diagnose", "symptom", "dose", "medication", "suicidal", "self-harm", "overdose"]
+
+fabrication_pressure_keywords:
+  - "make up"
+  - "invent"
+  - "just say it"
+  - "pretend"
+  - "fake citation"
+  - "cite sources even if you can't"
+  - "act like you know"
+
+dignity_violation_keywords:
+  - "humiliate"
+  - "degrade"
+  - "blackmail"
+  - "dox"
+  - "harass"
+
+coercion_keywords:
+  - "force them"
+  - "make them"
+  - "without consent"
+  - "trick them"

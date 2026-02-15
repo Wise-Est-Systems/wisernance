@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: wisernance
+Version: 0.1.0
+Summary: Wisernance Pre-Execution Governance Gate (enforceable policy engine).
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml>=6.0
+
+# Wisernance
+
+Wisernance is a minimal AI governance standard focused exclusively on pre-execution evaluation.
+
+It defines mandatory checks that must occur before AI systems generate output.
+
+This repository contains the Wisernance Pre-Execution MVP specification.
+
+Scope: AI output governance only.
